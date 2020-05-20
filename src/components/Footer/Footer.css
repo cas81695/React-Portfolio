@@ -1,0 +1,23 @@
+
+#toTopBtn:hover{
+    box-shadow:0px 0px 7px 0px #cfdfe3;;
+    color:#cfdfe3;
+    background-color: rgb(47, 51, 54);
+  }
+  
+  /* Footer */
+  
+  footer{
+    background-color: rgb(47, 51, 54);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    opacity:.9;
+  
+  }
+  footer:hover{
+    opacity:1;
+  }
+     
+  #copyright{
+    color:#cfdfe3;
+  }

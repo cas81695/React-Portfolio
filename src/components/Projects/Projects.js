@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectsCard from './ProjectsCard.js'; 
+import ProjectCard from './ProjectCard.js'; 
 import burger from "../../projectImages/burger.png"
 import net from "../../projectImages/net.png"
 import vote from "../../projectImages/vote.png"
@@ -16,13 +16,13 @@ function Projects() {
 <>
     <div>
       <div className="row">
-      <ProjectsCard
+      <ProjectCard
         link="https://cas81695.github.io/Day-Planner/"
         image={planner}
         projectName="Day Planner"
 
       />
-      <ProjectsCard
+      <ProjectCard
         link="https://cas81695.github.io/Weather-Dashboard/"
         image={weather}
         projectName="Weather Dashboard"
@@ -31,13 +31,13 @@ function Projects() {
       </div>
 
       <div className="row">
-      <ProjectsCard
+      <ProjectCard
         link="https://immense-basin-17135.herokuapp.com/"
         image={burger}
         projectName="Burger Handlebars"
  
       />
-      <ProjectsCard
+      <ProjectCard
         link="https://github.com/cas81695/Project-One"
         image={vote}
         projectName="Know Your Vote"
@@ -46,13 +46,13 @@ function Projects() {
       </div>
 
       <div className="row">
-      <ProjectsCard
+      <ProjectCard
         link="https://cas81695.github.io/Employee-Directory/"
         image={EmployeeDir}
         projectName="Employee Directory"
  
       />
-      <ProjectsCard
+      <ProjectCard
         link="https://vast-headland-47194.herokuapp.com/"
         image={net}
         projectName="Quest for the Net"
@@ -61,13 +61,13 @@ function Projects() {
       </div>
 
       <div className="row">
-      <ProjectsCard
+      <ProjectCard
         link="https://obscure-ridge-91951.herokuapp.com/"
         image={workoutTracker}
         projectName="Workout Tracker"
 
       />
-      <ProjectsCard
+      <ProjectCard
         link="https://dry-savannah-70140.herokuapp.com/"
         image={budget}
         projectName="Budget Tracker"

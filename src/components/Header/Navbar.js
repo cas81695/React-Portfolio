@@ -26,7 +26,7 @@ const handleToggle=  () => {
         <Link to="/contact" className="navbar-item button hide-small"><i className="fa fa-address-card"></i> CONTACT</Link>
       </div>
 
-      {/* <!-- Navbar small--> */}
+      {/*  Navbar Small */}
       <div id="navFixed" className="hide-small hide-large hide-medium" onClick={handleToggle}>
         <Link to="/about" className="navbar-item small button">ABOUT</Link>
         <Link to="/portfolio" className="navbar-item small button" >PORTFOLIO</Link>
