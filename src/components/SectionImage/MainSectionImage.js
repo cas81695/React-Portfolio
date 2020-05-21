@@ -1,20 +1,18 @@
 import React from "react";
 import "./SectionImage.css"
 import Typist from 'react-typist';
-import lh from "../../backgroundImages/lh.png";
+import home from "../../backgroundImages/home.png";
 
 function MainSectionImage(){
   return(
     <>
-    <div className="bgImg" id="home" style={{height: window.innerHeight, backgroundImage: `url(${lh})`}}>
+    <div className="bgImg" id="home" style={{height: window.innerHeight, backgroundImage: `url(${home})`}}>
       <div id="bgTextLeft">
       
       <Typist>
         <span className="wide" id="nameSpan">
           Christian Sanchez</span>
         <br></br>
-        <span className="wide" id="jobSpan">Front End</span>
-        <Typist.Backspace count={9} delay={70}/>
         <span className="wide" id="jobSpan">Full Stack Web Developer</span>
       </Typist>
 

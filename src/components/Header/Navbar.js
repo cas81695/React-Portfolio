@@ -21,7 +21,7 @@ const handleToggle=  () => {
           <i className="fa fa-bars"></i>
         </button>
         <Link to="/" className="navbar-item button">HOME</Link>
-        <Link to="/about" className="navbar-item button hide-small"><i className="fa fa-female"></i> ABOUT</Link>
+        <Link to="/about" className="navbar-item button hide-small"><i className="fa fa-male"></i> ABOUT</Link>
         <Link to="/portfolio" className="navbar-item button hide-small"><i className="fa fa-th"></i> PORTFOLIO</Link>
         <Link to="/contact" className="navbar-item button hide-small"><i className="fa fa-address-card"></i> CONTACT</Link>
       </div>

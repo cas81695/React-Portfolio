@@ -14,21 +14,22 @@ body,
 html {
   height: 100%;
   line-height: 1.8;
-  color: rgb(70, 68, 71);
-  background-color: #bbb0ac;
+  color: rgb(245, 243, 247);
+  background-color: #8e9191;
   margin:0;
-  font-family: 'Raleway', sans-serif!important ;
-  font-size:15px;
+  font-family: "Charcoal" sans-serif !important ;
+  font-size:17px;
   line-height:1.5;
 } 
 
-/* -------buttons------ */
+/* Buttons */
+
 #resumeBtn,
 #toTopBtn,
 #sendBtn{
-  padding:7px;
-  border-radius:5px;
-  box-shadow: 0 2px 5px 0 rgba(155, 150, 150, 0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  padding:6px;
+  border-radius:7px;
+  box-shadow: 0 2px 5px 0 rgba(150, 154, 155, 0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 
   text-decoration:none;
   font-size:16px;
@@ -44,8 +45,6 @@ html {
  
 }
 
-
-
 .button{
   border:none;
   display:inline-block;
@@ -59,7 +58,6 @@ html {
   cursor:pointer;
   white-space:nowrap;
   
-
   -webkit-touch-callout:none;
   -webkit-user-select:none;
   -khtml-user-select:none;
@@ -126,7 +124,7 @@ hr{
    padding: 20px;
    opacity: .9;
    float:right;
-   color: rgb(47, 51, 54);
+   color: rgb(241, 243, 245);
   
  }
  .iconsTop:hover{
@@ -137,8 +135,8 @@ hr{
 
  #myPhoto{
   opacity: .7;
-  margin-bottom: 30px;
-  border: 8px solid transparent;
+  margin-bottom: 32px;
+  border: 6px solid transparent;
   border-image: linear-gradient(to right, #8ec8e9, #77787a);
   border-image-slice: 1; 
 }
@@ -187,7 +185,6 @@ hr{
 .fa-calculator{
   padding: 0 35px 0 35px;
   font-size: 20px;
-
 }
 
 /*  Contact Section  */
