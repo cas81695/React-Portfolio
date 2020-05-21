@@ -35,7 +35,7 @@ function Projects() {
         projectName="Burger Handlebars"
       />
       <ProjectCard
-        link="https://github.com/cas81695/Project-One"
+        link="https://steffield.github.io/Know-Your-Vote/"
         image={vote}
         projectName="Know Your Vote"
       />
