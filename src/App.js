@@ -10,28 +10,22 @@ import Contact from './pages/Contact/index';
 
 import './App.css';
 
-
 function App() {
-
-
   return (
     <div>
     <HashRouter>
         <Header />
           <Route exact path="/" component={Home} />
-          {/* <Home /> */}
+         
           <Route exact path="/about" component={About} />
-          {/* <About /> */}
+         
           <Route exact path="/portfolio" component={Portfolio} />
-          {/* <Portfolio /> */}
+         
           <Route exact path="/contact" component={Contact} />
-          {/* <Contact /> */}
           
         <Footer/>
    </HashRouter>
       </div>
-          
-
   );
 }
 

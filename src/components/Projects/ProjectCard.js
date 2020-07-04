@@ -10,7 +10,7 @@ return(
       <div className="banner">
         <h4>{props.projectName}</h4>
         <p id="subtext">
-          {props.technologies}
+          {props.technology}
           </p>
       </div>
       </a>
