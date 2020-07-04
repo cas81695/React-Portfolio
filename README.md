@@ -24,7 +24,7 @@ The application was bootstrapped with [Create React App](https://github.com/face
 
 ## Deployed Link:
 
-The deployed link to gh-pages: <a href="https://cas81695.github.io/react-portfolio">React Portfolio</a>.
+The deployed link to gh-pages: <a href="https://cas81695.github.io/React-Portfolio/">React Portfolio</a>.
 
 
 ## Questions
